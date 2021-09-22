@@ -1,0 +1,482 @@
+body{
+    margin: 0px;
+    }
+    #body-header{
+      background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 65vh;
+      opacity: 0.8;
+      padding-top: 1.2rem;
+    }
+    
+    .horizontal-list{
+      padding-left: 0px;
+      list-style: none;
+      margin: 0px;
+    }
+    .horizontal-list li{
+     
+     display: inline-block;
+     margin: 0px 8px 8px 0;
+     font-size: 1.5rem;
+     font-weight: 100;
+    }
+    .horizontal-list li a{
+      text-decoration: none;
+      color: white;
+    
+    }
+    .nav-menu li a{
+      transition: color 0.5s,border-bottom 4s;
+    }
+    .nav-list li a:hover{
+      color: darkgrey;
+      border-bottom: 1px solid white;
+    }
+    
+    .text-center{
+      text-align: center;
+    }
+    /*Name and Social Icons */
+    #name-social-container{
+      margin-top: 20vh;
+    }
+    #my-name{
+      color: white;
+      letter-spacing: 2px;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .social-icon li a i{
+      padding:10px;
+      font-size: 1rem;
+      border-radius: 50%;
+    }
+    .social-icon li a i:hover{
+      box-shadow:  0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    }
+    section{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    section:target{
+      background-color: cyan;
+    }
+   section:nth-child(2n){
+    background-color: #9e9b9b29;
+   }
+   section:nth-child(2n+1){
+    background-color: white;
+   }
+    .section-heading{
+      width: auto;
+      padding: 20px 10px 10px; 
+      font-weight: 400;
+      
+    }
+    .section-heading span{
+      font-size: 40px;
+      color: #2857a4;
+      padding-top: 10px;
+      margin: auto;
+    }
+    /*About Section */
+    #about{
+      height: auto;
+      width: 100%;
+      position: relative;
+      margin-bottom: 30px;
+    }
+    #my-image{
+        height: 12rem;
+        width: 12rem;
+        margin: auto;
+        margin-top: -14vh;  
+    }
+    #my-image img{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 1px 1px 10px 2px lightgrey;
+   }
+   #about p{
+     padding: 10px;
+     width: 70%;
+     height: 100%;
+     margin: auto;
+     color: grey;
+     text-align: justify;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.1rem;
+     font-weight: 100;
+     line-height: 28px;
+     
+   }
+   .text-heighlight{
+     color: #2857a4;
+     font-weight: 600;
+   }
+   .mb75px{
+     margin-bottom: 75px;
+    
+   }
+   .mb-orange{
+     background-color:orangered ;
+   }
+   .mb-blue{
+     background-color: #2857a4;
+   }
+   /* Skills-display */
+   .skills-display{
+    width: 70%;
+    height: 170px;
+   /* border: 2px solid black;*/
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+   }
+   .skill-progress{
+     width: 7rem;
+     height: 1.2rem;
+     border-radius: 0.8rem;
+     margin-top: 10px;
+     margin-right: 160px;
+     background-color: lightgray;
+   }
+   .skill-progress div{
+     border-radius: 20px 0px 0px 20px;
+   }
+   .eighty-five-percent { 
+     width: 85%;
+     height: inherit;
+     margin-bottom: 10px;
+   }
+   .fifty-five-percent{
+     width: 55%;
+     height: inherit;
+   }
+   .forty-five-percent{
+    width:86%;
+    height: inherit;
+   }
+   .sixty-five-percent{
+     width: 65%;
+     height: inherit;  
+   }
+   .ten-percent{
+    width: 70%;
+     height: inherit;  
+   }
+   .seventy-five-percent{
+    width: 75%;
+    height: inherit;
+   }
+   .thirty-five-percent{
+    width: 35%;
+    height: inherit; 
+   }
+   .skill-name span{
+     color: white;
+     font-size: 1rem;
+     margin-left: 5px;
+     padding: 5px;
+     margin-top: 5px;
+   }
+   /* Contacts */
+   .cont-head{
+     width: 100%;
+     text-align: center;
+   }
+   .cont-head span{
+      font-size: 40px;
+      color: white;
+      
+      padding-top: 10px;
+      margin-right: 0.5rem;
+   }
+   #test{
+    width: 100%;
+    margin-top: 20px;
+   }
+   #contacts{
+     width: 100vw;
+     height: 600px;
+     background: linear-gradient(45deg, #2857a4, #403066);
+
+     display: flex;
+    flex-wrap: wrap;
+    
+   }
+  
+   .cont-detail{
+     width: 40%;
+     margin-left: 80px;
+     display: inline-block;
+   }
+   .cont-detail-aside{
+     width: 40%;
+   display: inline-block;
+   margin-left: 150px;
+   }
+
+  .cont-detail-aside h2{
+    color:white;
+  }
+  .cont-detail-aside h4{
+    color:white;
+  }
+  .cont-detail-aside span{
+    color: white;
+    margin: 10px 20px 10px 10px;
+    
+    font-size: 1rem;
+  }
+  .big i{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+#nameid{
+border: none;
+background-color: transparent;
+outline: none;
+border-bottom: 3px solid white ;
+font-size: 1rem;
+color: darkgrey;
+width: 100%;
+margin-bottom: 50px;
+}
+#emailid{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 3px solid white ;
+  font-size: 1rem;
+  color: darkgrey;
+  width: 100%;
+  margin-bottom: 50px;
+  }
+  #messageid{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 3px solid white ;
+    font-size: 1rem;
+    color: darkgrey;
+    width: 100%;
+    margin-bottom: 50px;
+    }
+    #sendme{
+      
+      background-color: transparent;
+      outline: none;
+      border: 3px solid white ;
+      font-size: 1rem;
+      color: darkgrey;
+      width: 30%;
+      margin-bottom: 50px;
+      padding: 10px;
+      padding-left: 20px;
+      margin-left: 20%;
+      }
+      /* Work-experience */
+      .timeline{
+        position: relative;
+        width: 75%;
+      }   
+      .timeline-box{
+        position: relative;
+        width: 40%;
+        min-height: 150px;
+        margin: 5px;
+        left: 3%;
+      }
+  .timeline-box:nth-child(2n){
+    left: 53%;
+  }
+  .timeline-box ul li{
+    width:150px;
+  }
+ .timeline-box ul li::before{
+    content: '';
+    background-image: url(https://files.codingninjas.com/Group-2.svg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right:5px;
+   background-size: contain;
+  }
+  .timeline-box ul li{
+   list-style: none;
+  }
+  .timeline-box ul{
+    margin: 0;
+  }
+  .list{
+    color: #2857a4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 63% ;
+    margin-bottom: 0%;
+  }
+  .company-name{
+    color: orangered;
+    margin-left: 70%;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  .designation-para{
+    color: darkgrey;
+    margin-left: 84%;
+    margin-top: 5px;
+  }
+  .designation-para-1{
+    color: darkgrey;
+    margin-top: 5px;
+  }
+  .timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: -17%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: lightgrey;
+  }
+  /*this is for circle over the aeroplane line*/
+  .timeline-box:nth-child(2n)::before{
+    content: '';
+    position: absolute;
+    top: 34%;
+    left: -10%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:lightgrey;
+  }
+  /*from this u can create dashed-line*/
+  .timeline-divider{
+    position: absolute;
+    width: 0;
+    height: 75%;
+    border: 1px dashed #2857a4;
+    top: 10%;
+    left: 50%;
+  }
+  /* this is for aeroplane */
+  .timeline-traveller{
+    position: sticky;
+   top: 25%;
+   transform: rotate(90deg);
+  }
+  .timeline-traveller i{
+    color: #2857a4;
+  }
+  /* Education */
+  .edu-timeline{
+    position: relative;
+    width: 75%;
+  }
+  .edu-timeline-box{
+    position: relative;
+        width: 40%;
+        margin-bottom: 5px ;
+        min-height: 150px;
+        margin: 5px;
+        left: 3%;
+  }
+  /* this is for box margin*/
+  .edu-timeline-box:nth-child(2n){
+    margin-left:53%;
+  }
+  .edu-list{
+    width: 150px;
+    color: #2857a4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 63%;
+    margin-bottom:0%;
+  }
+  .edu-timeline-box ul li{
+    list-style: none;
+  }
+  .edu-company-name{
+    position: relative;
+    color: orangered;
+    margin-left: 90%;
+    font-size: 1.2rem;
+    margin-top:0%;
+  }
+  .edu-timeline-box ul{
+    margin: 0;
+  }
+  .coding{
+    color: orangered;
+    margin-left: 86%;
+    font-size: 1.2rem;
+  }
+  .edu-designation-para{
+    color: darkgrey;
+    margin-left: 72%;
+  }
+  .edu-designation-para-1{
+    color: darkgrey;
+    margin-top: 5px;
+    margin-left: 60%;
+  }
+  /* this .edu-timeline-box ul li{} is only for logo */
+  .edu-timeline-box ul li::before{
+    content: '';
+    background-image: url(https://files.codingninjas.com/Group-2.svg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right:5px;
+   background-size: contain;
+  }
+  /* this is for cicle which u have to create over line*/
+  .edu-timeline-box:nth-child(2n)::before{
+    content: '';
+    position: absolute;
+    top: 34%;
+    left: -10%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:lightgrey;
+  }
+  /*from this u can create dashed-line*/
+  .edu-timeline-divider{
+    position: absolute;
+    width: 0;
+    height: 75%;
+    border: 1px dashed #2857a4;
+    top: 10%;
+    left: 50%;
+  }
+  /* this is for aeroplane */
+  .edu-timeline-traveller{
+    position: sticky;
+   top: 25%;
+   transform: rotate(90deg);
+  }
+  .edu-timeline-traveller i{
+    color: #2857a4;
+  }
+
+  /* portfolio*/
+  .pics1{
+   margin-left: 150px;
+    width:20%;
+    height: 20%;
+    margin-bottom: 70px;
+  }
+ 
